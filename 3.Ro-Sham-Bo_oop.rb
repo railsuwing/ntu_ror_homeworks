@@ -12,7 +12,7 @@ class RSB_GAME
 			@draw=0
 			print "Let's Play Ro-Sham-Bo (Y/n)?"
 			operation = gets.chomp
-			if operation=="" ||  operation=='Y' || operation=='y' 
+			if operationg=="" ||  operation=='Y' || operation=='y' 
 				@game_over=false
 				return 
 			elsif  operation=='N' || operation=='n' 
